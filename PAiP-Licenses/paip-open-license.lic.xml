@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license title="PAiP XXX License" author="template" company="Template Industry" created="08.05.2016" version="0.1">
+    <group type="author">
+        <rule type="copy" rule="allow"/>
+        <rule type="modify" rule="allow"/>
+        <rule type="publish" rule="allow"/>
+        <rule type="use" rule="allow"/>
+        <rule type="compile" rule="allow"/>
+        <rule type="sell" rule="allow"/>
+        <rule type="distribute" rule="allow"/>
+        <rule type="update" rule="allow"/>
+    </group>
+    <group type="team author-company">
+        <rule type="copy" rule="allow"/>
+        <rule type="modify" rule="allow"/>
+        <rule type="publish" rule="allow"/>
+        <rule type="use" rule="allow"/>
+        <rule type="compile" rule="allow"/>
+        <rule type="sell" rule="allow"/>
+        <rule type="distribute" rule="allow"/>
+        <rule type="update" rule="deny"/>
+    </group>
+    <group type="nocommercial">
+        <rule type="copy" rule="allow"/>
+        <rule type="modify" rule="allow"/>
+        <rule type="publish" rule="deny"/>
+        <rule type="use" rule="allow"/>
+        <rule type="compile" rule="allow"/>
+        <rule type="sell" rule="deny"/>
+        <rule type="distribute" rule="deny"/>
+    </group>
+    <group type="commercial">
+        <rule type="copy" rule="allow"/>
+        <rule type="modify" rule="allow"/>
+        <rule type="publish" rule="deny"/>
+        <rule type="use" rule="allow"/>
+        <rule type="compile" rule="allow"/>
+        <rule type="sell" rule="deny"/>
+        <rule type="distribute" rule="deny"/>
+    </group>
+    <sign>
+        <copyright>Patryk Adamczyk i Przyjaciele © 2016</copyright>
+        <license_copyright>
+            Patryk Adamczyk i Przyjaciele © 08.05.2016 - 2016
+            <url href="http://paip.com.pl/"/>
+        </license_copyright>
+    </sign>
+</license>

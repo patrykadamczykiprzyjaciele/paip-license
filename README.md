@@ -1,2 +1,2 @@
-# paip-license
+# PAiP Licenses Project
 PAiP Licenses Project
